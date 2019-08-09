@@ -1,0 +1,14 @@
+[package]
+name = "web-scraper"
+version = "0.1.0"
+authors = ["Cortlan Bainbridge <cortlan.bainbridge@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+reqwest = "0.9.19"
+scraper = "0.10.1"
+select = "0.4.3"
